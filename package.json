@@ -1,0 +1,17 @@
+{
+  "name": "vibexsui",
+  "version": "0.1.0",
+  "description": "SUI Move contract dev kit (testnet MVP, mainnet-ready)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd move/vibex && sui move build",
+    "test": "cd move/vibex && sui move test",
+    "publish": "cd move/vibex && sui client publish --gas-budget 100000000",
+    "publish:mainnet": "cd move/vibex && sui client publish --gas-budget 100000000 --env mainnet",
+    "deploy:ts": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "@mysten/sui": "^2.0.0"
+  }
+}
