@@ -1,0 +1,1 @@
+vibex contract is simply for overall dev workspace testing. It is a demo of codebase functionality for deploying a simple contract to testnet or mainnet. The vibex contract does not do anything in particular, but is here to demonstrate the expected subfolder structure for contracts build with VIBExSUI software environment.
