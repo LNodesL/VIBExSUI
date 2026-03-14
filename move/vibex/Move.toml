@@ -1,0 +1,10 @@
+[package]
+name = "vibex"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# std and sui are implicitly included by the Sui package system
+
+[addresses]
+vibex = "0x0"
