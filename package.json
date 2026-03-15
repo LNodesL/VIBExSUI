@@ -7,8 +7,12 @@
   "scripts": {
     "build": "cd move/vibex && sui move build",
     "test": "cd move/vibex && sui move test",
+    "build:trophies": "sui move build --path move/VIBEChallengeTrophies",
+    "test:trophies": "sui move test --path move/VIBEChallengeTrophies",
     "publish": "cd move/vibex && sui client publish --gas-budget 100000000",
+    "publish:trophies": "cd move/VIBEChallengeTrophies && sui client publish --gas-budget 100000000",
     "publish:mainnet": "cd move/vibex && sui client publish --gas-budget 100000000 --env mainnet",
+    "publish:mainnet:trophies": "cd move/VIBEChallengeTrophies && sui client publish --gas-budget 100000000 --env mainnet",
     "deploy:ts": "node scripts/deploy.mjs"
   },
   "devDependencies": {
