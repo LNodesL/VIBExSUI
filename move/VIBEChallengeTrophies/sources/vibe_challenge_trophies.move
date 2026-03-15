@@ -6,7 +6,6 @@ module vibe_challenge_trophies::vibe_challenge_trophies {
     use sui::display;
     use sui::package::{Self as pkg, Publisher};
     use sui::table::{Self, Table};
-    use sui::tx_context::{Self as tx_context, TxContext};
 
     const ENotOwner: u64 = 1;
     const EBatchLengthMismatch: u64 = 2;
