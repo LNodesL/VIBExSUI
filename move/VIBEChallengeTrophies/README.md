@@ -1,0 +1,1 @@
+Starter kit contract for challenge trophies which are admin-given points (goes into user/address balance) that cannot be edited or removed once awarded. Used for challenges, contests, etc for tracking wins. Optional comment per addition, and admin can add +1 challenge point or multiple at a time with the optional comment to add to on-chain ledger, or submit without a note.
