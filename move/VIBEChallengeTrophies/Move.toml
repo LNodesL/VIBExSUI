@@ -1,0 +1,10 @@
+[package]
+name = "vibe_challenge_trophies"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# std and sui are implicitly included by the Sui package system
+
+[addresses]
+vibe_challenge_trophies = "0x0"
