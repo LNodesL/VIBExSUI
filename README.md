@@ -50,6 +50,18 @@ SUI Move contract dev kit: develop, test, and deploy Move packages on **testnet*
    SUI_NETWORK=testnet ./scripts/deploy.sh
    ```
 
+NOTE: DEPENDING ON SUI CLI VERSION, YOUR PUBLISH SCRIPT MAY DIFFER IN PACKAGE.JSON 
+Newer:
+```
+ "publish": "sui client publish contract --gas-budget 100000000",
+ "publish:mainnet": "sui client --client.env mainnet publish contract --gas-budget 100000000",
+ ```
+Older:
+```
+publish": "sui client publish --path contract --gas-budget 100000000",
+"publish:mainnet": "sui client publish --path contract --gas-budget 100000000 --env mainnet",
+```
+
 ## Verify setup
 
 - Active env: `sui client active-env` (should be `testnet` for MVP).
